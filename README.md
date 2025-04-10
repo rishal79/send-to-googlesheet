@@ -23,8 +23,10 @@ This project shows how to create a simple, secure HTML contact form that submits
 2. Create a new spreadsheet.
 3. Rename the first tab to: `Sheet1` (or anything you like).
 4. In **row 1**, enter the following headers:
-     Name | Email | Message | Date
-
+   
+```
+Name | Email | Message 
+```
 
 ### Step 2. ⚡ Set Up Google Apps Script
 
@@ -125,4 +127,8 @@ try {
   - Do not use this to collect sensitive data like passwords or private info.
       
     
+##  Support
+If this project helped you or saved you time, please consider giving it a ⭐️ on GitHub! <br/>
+Your support encourages me to improve and maintain this project. 
 
+If you face any issues, feel free to open an issue — I'm happy to help!
