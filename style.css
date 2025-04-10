@@ -1,0 +1,37 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: #f2f2f2;
+    }
+    .contact-form {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 600px;
+    }
+    .send-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #007BFF;
+      color: white;
+      padding: 0.75rem 1.25rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .send-button:hover {
+      background-color: #0056b3;
+    }
+    .send-button i {
+      margin-right: 0.5rem;
+    }
