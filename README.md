@@ -17,7 +17,7 @@ This project shows how to create a simple, secure HTML contact form that submits
 
 ## ⚙️ How to Set Up (Step-by-Step)
 
-### step 1. 📄 Create Google Sheet
+### Step 1. 📄 Create Google Sheet
 
 1. Go to [Google Sheets](https://sheets.google.com).
 2. Create a new spreadsheet.
@@ -26,17 +26,13 @@ This project shows how to create a simple, secure HTML contact form that submits
      Name | Email | Message | Date
 
 
-
-
-
-
-### step 2. ⚡ Set Up Google Apps Script
+### Step 2. ⚡ Set Up Google Apps Script
 
 1. Click **Extensions → Apps Script** in your Google Sheet.
 2. Replace the default code with this:
 
 ```javascript
-const sheetName = 'Sheet1';
+const sheetName = 'Sheet1'; // 🔁 Replace 'Sheet1' with your actual sheet name if different
 const scriptProp = PropertiesService.getScriptProperties();
 
 function intialSetup() {
@@ -80,8 +76,9 @@ try {
 
 4.Select intialSetup in the dropdown and click ▶️ Run (it stores the Sheet ID).
 
-5.Click Deploy → Manage Deployments → New Deployment:
-
+5.Click Deploy →  New Deployment:
+  - click settings
+    
   - Select Web App
   
   - Set Execute as: Me
@@ -93,7 +90,7 @@ try {
 
 
 
-### step 3. create the html file
+### Step 3. create the html file
   
   - ⚠️ Important: The name attributes of the form fields must exactly match the header names in your Google Sheet (e.g., Name, Email, Message).
   
@@ -101,7 +98,7 @@ try {
 
 
 
-### step 4.Paste the Web App URL into script.js
+### Step 4.Paste the Web App URL into script.js
 
 ```javascript
     const scriptURL = 'YOUR_DEPLOYED_WEB_APP_URL'; // ← Paste your web app URL here
