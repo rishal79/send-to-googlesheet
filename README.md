@@ -25,7 +25,7 @@ This project shows how to create a simple, secure HTML contact form that submits
 4. In **row 1**, enter the following headers:
    
 ```
-Name | Email | Message 
+Name | Email | Message | Date
 ```
 
 ### Step 2. ⚡ Set Up Google Apps Script
